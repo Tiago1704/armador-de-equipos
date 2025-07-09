@@ -1,0 +1,17 @@
+.ruleta-container.spin {
+  animation: spin 2s ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+#root {
+  width: 100%;
+}
+
